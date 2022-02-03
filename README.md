@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/terayaarhoomai"><img src="https://telegra.ph/file/0824baeceeb1f6d3223de.jpg"></a></p>
+<p align="center"><a href="https://t.me/santhu_music_bot"><img src="https://te.legra.ph/file/9462e6eba7e79c3f65779.jpg"></a></p>
 <p align="center">
     <br><b>Video Stream is an Advanced Telegram Bot that's allow you to play Video & Music on Telegram Group Video Chat</b><br>
 </p>
@@ -66,7 +66,7 @@
 ## Heroku Deployment 💜
 The easy way to host this bot, deploy to Heroku, Change the app country to Europe (it will help to make the bot stable).
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mrvk1703/video-stream)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/SANTHOSHPODILI/video-stream.git)
 
 ## VPS Deployment 📡
 Get the best Quality of streaming performance by hosting it on VPS, here's the step's:
