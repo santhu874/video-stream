@@ -17,10 +17,9 @@ from config import (
     command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
 )
 async def start_(client: Client, message: Message):
-    await message.reply_sticker("CAACAgQAAxkBAAIC_mH1JUrL_s4kgKA5hiDk_Rrl0GYWAAIeCgACz9YRUXNuChP5kGjfIwQ")
-    await message.reply_photo(
-        photo=f"https://te.legra.ph/file/ffbb096d10dd36ad45337.jpg",
-        caption=f"""**━━━━━━━━━━━━ 🌺🌻🌹🌷━━━━━━━━━━
+    await message.reply_text(
+        f"""**ʜɪ ʀᴀ ɴɪʙʙᴀ ɴᴇɴᴜ ᴠᴄ ᴍᴜsɪᴄ ʙᴏᴛ ɴɪ: [sᴀɴᴛʜᴏsʜ 💞](https://t.me/santhu_music_bot)**""",
+"https://te.legra.ph/file/9462e6eba7e79c3f65779.jpg", 
 ━━━━━━━━━━━━━ 🌺🌻🌹🌷━━━━━━━━━━━━━
 😊ʜɪ ɪᴀᴍ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ... ᴅᴇᴘʟᴏʏ ʙʏ : @santhu_music_bot
 ┏━━━━━━━━━━━━━━━━━┓ 🌺🌻🌹🌷🌺🌻🌹
