@@ -1,5 +1,5 @@
 {
-    "name": "Video x Music Stream Bot",
+    "name": "sᴀɴᴛʜᴜ Stream Bot",
     "description": "Telegram bot for Streaming Video & Music trought the Telegram Group Video Chat, powered by pytgcalls and pyrogram",
     "logo": "https://telegra.ph/file/0824baeceeb1f6d3223de.jpg",
     "keywords": [
@@ -47,22 +47,22 @@
         "GROUP_SUPPORT": {
             "description": "if you have group, then fill the group username here without @",
             "required": true,
-            "value": "terayaarhoomai"
+            "value": "santhuvc"
         },
         "UPDATES_CHANNEL": {
             "description": "if you have channel, then fill the channel username here without @",
             "required": true,
-            "value": "Maxopeditz"
+            "value": "santhubotupadates"
         },
         "OWNER_NAME": {
             "description": "fill with your telegram account username without @",
             "required": true,
-            "value": "Cute_boy701"
+            "value": "santhu_music_bot"
         },
         "ALIVE_NAME": {
             "description": "fill with your telegram account nickname/name",
             "required": true,
-            "value": "Lucky"
+            "value": "sᴀɴᴛʜᴜ"
         }
     },
     "addons": [],
