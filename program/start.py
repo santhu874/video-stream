@@ -47,7 +47,9 @@ async def _human_time_duration(seconds):
     return ", ".join(parts)
 
 
-@Client.on_message(command("start") & filters.private & ~filters.group & ~filters.edited)
+@Client.on_message(
+    command(["start", f"start@{BOT_USERNAME}"]) & filters.private & ~filters.edited
+)
 async def start_(client: Client, message: Message):
     await message.reply_sticker("CAACAgQAAxkBAAIC_mH1JUrL_s4kgKA5hiDk_Rrl0GYWAAIeCgACz9YRUXNuChP5kGjfIwQ")
     await message.reply_photo(
