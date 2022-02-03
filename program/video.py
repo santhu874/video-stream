@@ -63,8 +63,8 @@ async def vplay(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="🥀ᴏᴡɴᴇʀ", url=f"https://t.me/cute_boy701"),
-                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ🥀", url=f"https://t.me/terayaarhoomai"),
+                InlineKeyboardButton(text="🥀ᴏᴡɴᴇʀ", url=f"https://t.me/santhu_music_bot"),
+                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ🥀", url=f"https://t.me/santhuvc"),
             ]
         ]
     )
@@ -285,8 +285,8 @@ async def vstream(c: Client, m: Message):
     keyboard = InlineKeyboardMarkup(
         [
             [
-                InlineKeyboardButton(text="🥀ᴏᴡɴᴇʀ", url=f"https://t.me/cute_boy701"),
-                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ🥀", url=f"https://t.me/terayaarhoomai"),
+                InlineKeyboardButton(text="🥀ᴏᴡɴᴇʀ", url=f"https://t.me/santhu_music_bot"),
+                InlineKeyboardButton(text="ꜱᴜᴘᴘᴏʀᴛ🥀", url=f"https://t.me/santhuvc"),
             ]
         ]
     )
