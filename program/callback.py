@@ -18,8 +18,8 @@ from config import (
 )
 async def start_(client: Client, message: Message):
     await message.reply_text(
-        https://te.legra.ph/file/9462e6eba7e79c3f65779.jpg
         f"""**ʜɪ ʀᴀ ɴɪʙʙᴀ ɴᴇɴᴜ ᴠᴄ ᴍᴜsɪᴄ ʙᴏᴛ ɴɪ: [sᴀɴᴛʜᴏsʜ 💞](https://t.me/santhu_music_bot)**""",
+https://te.legra.ph/file/9462e6eba7e79c3f65779.jpg
 ┏━━━━━━━━━━━━━━━━━┓ 🌺🌻🌹🌷🌺🌻🌹
 ┣» ᴏᴘ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ. 
 ┣» ʜɪɢʜ ǫᴜᴀʟɪᴛʏ  ᴍᴜꜱɪᴄ.
