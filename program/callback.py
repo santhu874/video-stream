@@ -13,33 +13,43 @@ from config import (
 )
 
 
-@Client.on_callback_query(filters.regex("cbstart"))
-async def cbstart(_, query: CallbackQuery):
-    await query.edit_message_text(
-        f"""**Hᴇʏ Hᴏᴛᴛɪᴇ Sʜᴏᴛᴛɪᴇ\n
-**I Aᴍ A Mᴜsɪᴄ Sᴇʀᴠᴇʀ Fᴏʀ Yᴏᴜʀ Tᴇʟᴇɢʀᴀᴍ Vᴏɪᴄᴇ Cʜᴀᴛ & Cʜᴀɴɴᴇʟs 😉🌸 Usᴇ Mᴇ Hᴀʀᴅʟʏ & Eɴᴊᴏʏ Mᴜsɪᴄ Wɪᴛʜ Sᴜᴘᴇʀ Dᴜᴘᴇʀ Qᴜᴀʟɪᴛʏ 😈❣️
-Dᴇᴠᴇʟᴏᴘᴇᴅ Bʏ : [Lᴜᴄᴋʏ 𓆩👅𓆪](https://t.me/cute_boy701)**""",
-        reply_markup=InlineKeyboardMarkup(
+@Client.on_message(command("start") & filters.private & ~filters.group & ~filters.edited)
+async def start_(client: Client, message: Message):
+    await message.reply_sticker("CAACAgQAAxkBAAIC_mH1JUrL_s4kgKA5hiDk_Rrl0GYWAAIeCgACz9YRUXNuChP5kGjfIwQ")
+    await message.reply_photo(
+        photo=f"https://te.legra.ph/file/ffbb096d10dd36ad45337.jpg",
+        caption=f"""**━━━━━━━━━━━━ 🌺🌻🌹🌷━━━━━━━━━━
+━━━━━━━━━━━━━ 🌺🌻🌹🌷━━━━━━━━━━━━━
+😊ʜɪ ɪᴀᴍ ᴛᴇʟᴇɢʀᴀᴍ ᴠᴏɪᴄᴇ ᴍᴜsɪᴄ ʙᴏᴛ... ᴅᴇᴘʟᴏʏ ʙʏ : @santhu_music_bot
+┏━━━━━━━━━━━━━━━━━┓ 🌺🌻🌹🌷🌺🌻🌹
+┣» ᴏᴘ ᴍᴜꜱɪᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ. 
+┣» ʜɪɢʜ ǫᴜᴀʟɪᴛʏ  ᴍᴜꜱɪᴄ.
+┣» ᴀᴅᴠᴀɴᴄᴇᴅ ꜰᴇᴀᴛᴜʀᴇꜱ.
+┣» ꜱᴜᴘᴇʀꜰᴀꜱᴛ ꜱᴘᴇᴇᴅ. 
+┣» [𝐃𝐄𝐏𝐋𝐎𝐘 𝐁𝐘 ❤️](https://t.me/santhu_music_bot)
+┗━━━━━━━━━━━━━━━━━┛
+[𝐎𝐖𝐍𝐄𝐑 ❤️](https://t.me/santhu_music_bot)
+𝐈𝐟 𝐘𝐨𝐮 𝐇𝐚𝐯𝐞 𝐀𝐧𝐲 𝐐𝐮𝐞𝐬𝐭𝐢𝐨𝐧𝐬 𝐀𝐧𝐝 𝐇𝐞𝐥𝐩 𝐓𝐡𝐞𝐧 𝐃𝐦 𝐌𝐲 𝐁𝐨𝐬𝐬 = [𝐒𝐀𝐍𝐓𝐇𝐔❤️](https://t.me/santhu_music_bot)
+━━━━━━━━━━━━━━━━━━━━━━**""",
+    reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🌸 ᴏᴡɴᴇʀ 🌸",
-                        url=f"https://t.me/cute_boy701",
+                        "💞sᴀɴᴛʜᴜ ɴɪ ᴀᴅᴅ ᴄʜᴇsᴜᴋᴏɴᴅɪ💞", url="https://t.me/Santhuadvancefreemusicbot?startgroup=true")
+                  ],[
+                    InlineKeyboardButton(
+                        "☹️ᴏᴡɴᴇʀ😘", url="https://t.me/santhu_music_bot"
+                    ),
+                    InlineKeyboardButton(
+                        "😇ɢʀᴏᴜᴘ💞", url="https://t.me/santhuvc"
                     )
-                ],
-                [
+                ],[ 
                     InlineKeyboardButton(
-                        "🦋 Official Group 🦋", url=f"https://t.me/{GROUP_SUPPORT}"
-                    ),
-                    InlineKeyboardButton(
-                        "🦋 Official Channel 🦋", url=f"https://t.me/{UPDATES_CHANNEL}"
-                    ),
-                ],
+                        "😁ɴᴇᴛᴡᴏʀᴋ😊", url="https://t.me/santhubotupadates"
+                    )]
             ]
-        ),
-        disable_web_page_preview=True,
+       ),
     )
-
 
 @Client.on_callback_query(filters.regex("cbhowtouse"))
 async def cbguides(_, query: CallbackQuery):
